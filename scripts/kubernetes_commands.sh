@@ -38,5 +38,5 @@ function prod_pod_exec() {
 } 
 
 function helm_del_multiple() {
-  # helm del calum -n review --kube-context staging
+  helm del calum -n review --kube-context staging
 }
